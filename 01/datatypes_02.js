@@ -13,3 +13,14 @@ console.log(typeof undefined)
 // undefined
 console.log(typeof null)
 // object!!!!!
+
+let variable=3
+let negVar=-variable
+console.log(negVar);
+console.table([1+"2", 1+1+"2", "1" +2+2])
+let a=100
+++a
+// pree recuriment function
+a++
+// post recuriment function
+console.log(a)

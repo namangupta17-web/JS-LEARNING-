@@ -50,3 +50,12 @@ console.log(Object.entries(ok.name))
 // all above three gives me array value
 // we should also check wheather the function has value or not hence to do this we do 
 console.log(myarr.hasOwnProperty('name'))
+
+// +++++++++++DE_STRUCTURE+++++++++
+const hello={
+    name:"namste",
+    class:"61"
+}
+const {name: n}=hello
+// now if we want to use hello.name we can just use n
+console.log(n)

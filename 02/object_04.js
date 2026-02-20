@@ -32,3 +32,21 @@ const obj5={...obj1,...obj2}
 console.log(obj3)
 console.log(obj4)
 console.log(obj5)
+const heyji=[
+    {
+        name:"naman",
+        roll_no:51
+    },
+    {
+        name:"devanshi",
+        roll_no:89
+    }
+]
+console.log(heyji[1].roll_no)
+// ++++++++++
+console.log(Object.keys(ok.name))
+console.log(Object.values(ok.name))
+console.log(Object.entries(ok.name))
+// all above three gives me array value
+// we should also check wheather the function has value or not hence to do this we do 
+console.log(myarr.hasOwnProperty('name'))

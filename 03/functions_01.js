@@ -24,3 +24,26 @@ function mynum(name){
 console.log(mynum())
 // see in the above it will be undefined bcz no argument is given 
 console.log(mynum("name"))
+
+function hey(val1,val2,...num){
+    console.table([val1,val2,num])
+}
+hey(3,4,5,6,7,8,8,9,9,2)
+const nam={
+    name:"naman",
+    class:"N"
+}
+function printName(anyobject){
+    return anyobject.name
+}
+console.log(printName(nam))
+console.log(printName({
+    name:"shinchan",
+    age:56
+}))
+
+const arr=[500,600,700,800]
+function arr3(getarray){
+    return getarray[1]
+}
+console.log(arr3(arr))
